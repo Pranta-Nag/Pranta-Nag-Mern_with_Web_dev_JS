@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <h1>HTML Table</h1>
+    <table border="2" style="background-color:bisque">
+        <caption>CSE 31 Students</caption>
+
+        <colgroup>
+        <col span="1" style="background-color: aquamarine;">
+        <col span="1" style="background-color:cornflowerblue;">
+        <col span="1" style="background-color:darkolivegreen">
+        <col span="1" style="background-color:darkcyan">
+        </colgroup>
+
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Mobile No</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>8000</td>
+                <td>ABC</td>
+                <td>0954058</td>
+                <td rowspan="4">Ctg</td>
+            </tr>
+            <tr>
+                <td>8094</td>
+                <td>Pranta</td>
+                <td>06436346</td>
+            </tr>
+              <tr>
+                <td rowspan="2">8044</td>
+                <td>FRA</td>
+                <td>0643666</td>
+            </tr>
+            <tr>
+                <td>FRA</td>
+                <td>0643666</td>
+            </tr>
+        </tbody>
+        <tfoot style="background-color: gray;">
+           <tr>
+            <td colspan="4">All Students are there</td>
+           </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>

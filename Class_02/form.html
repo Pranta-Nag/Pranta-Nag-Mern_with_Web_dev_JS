@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>HTML Form</h1>
+    <form action="/register" method="post">
+
+    <fieldset>
+        
+
+        <legend>Sign Up</legend>
+        <label for="username">Username:</label>
+        <input type="text" id="username" required placeholder="Username">
+
+        <br>
+        
+         <label for="email">Email:</label>
+        <input type="email" id="email" required placeholder="Email">
+
+        <br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+
+        <br>
+
+        <label for="interest">Interest:</label>
+        <select name="interest" id="interest">
+            <option value="css">CSS</option>
+            <option value="java">JAVA</option>
+            <option value="c++">C++</option>
+        </select>
+
+        <br>
+
+        <label>
+            <input type="checkbox", name="agree">
+            I am agree.
+        </label>
+        <br>
+        <button type="submit">Submit</button>
+    </fieldset>
+    </form>
+</body>
+</html>
