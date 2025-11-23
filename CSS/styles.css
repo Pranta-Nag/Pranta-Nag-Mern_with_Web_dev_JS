@@ -1,0 +1,50 @@
+ body {
+     background-color: darkslategray;
+     color: aquamarine;
+     text-align: center;
+ }
+
+ div {
+    background-color: aqua;
+    color: black;
+    /* margin-bottom: 15px; */
+ }
+
+ span{
+    background-color: cadetblue;
+    color: brown;
+ }
+
+ #i-block{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: blue;
+ }
+
+ /* div {
+     background-color: bisque;
+     color: black;
+     margin-bottom: 15px;
+ }
+
+ span {
+     color: white;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+ }
+
+ .team-a {
+     background-color: darkslateblue;
+     color: lightgreen;
+ }
+
+ #neymar {
+     color: aqua;
+     background-color: coral;
+ }
+
+ .shuvo {
+     color: hotpink;
+     font-size: 20px;
+ } */
