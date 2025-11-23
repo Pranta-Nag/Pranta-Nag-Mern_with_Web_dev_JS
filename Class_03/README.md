@@ -56,3 +56,11 @@ id="abc"{}      ; use for single part
 <span> => Just set content space
 
 inline element => do not work column
+
+******* Box Model *******
+
+    #BOX
+    Border -> Padding -> Content 
+
+    #Margin
+    Box -> Margin -> Box

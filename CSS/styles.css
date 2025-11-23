@@ -1,25 +1,69 @@
- body {
-     background-color: darkslategray;
-     color: aquamarine;
-     text-align: center;
- }
+body {
+    background-color: darkslategray;
+    color: aquamarine;
+}
 
- div {
+.card {
     background-color: aqua;
     color: black;
-    /* margin-bottom: 15px; */
- }
+    /* height: 500px;
+    width: 400px; */
+    padding: 10px;
+  
+   
+}
 
- span{
-    background-color: cadetblue;
-    color: brown;
- }
+.view {
+    background-color: aquamarine;
+    display: flex;
 
- #i-block{
+} 
+
+.profile-pic {
+    width: 100%; 
     display: inline-block;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: blue;
+    vertical-align: top;
+}
+
+.profile-pic img {
+    width:auto;
+    border-radius: 10px;
+    height: 50%;
+}
+
+.profile-details {
+    margin: 0;
+    color: black;
+    display: inline-block;
+    text-align: justify;
+}
+
+
+ .div-p{
+     border: 16px solid red;
+     padding: 10px;
+     margin: 20px 0;
+ }
+
+ span {
+     background-color: cadetblue;
+     color: brown;
+ }
+
+ #i-block {
+     display: inline-block;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     color: blue;
+
+ }
+
+ .inline-parrent {
+     background-color: chartreuse;
+     width: 400px;
+     /* margin-bottom: 3px; */
+     padding: 15px;
+     height: 300px;
  }
 
  /* div {
@@ -48,3 +92,5 @@
      color: hotpink;
      font-size: 20px;
  } */
+
+ 
