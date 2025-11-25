@@ -1,0 +1,146 @@
+.d1,
+.d2,
+.d3 {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}
+
+.d1 {
+    background-color: black;
+    color: white;
+    border: 3px solid rosybrown;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.d2 {
+    background-color: rgba(50, 100, 220, 0.5);
+    /* opacity: 0.5; */
+    margin-top: -150px;
+    margin-left: 50px;
+    text-align: center;
+    border-radius: 50%;
+
+}
+
+.d3 {
+    background-color: darkmagenta;
+    transition: transform cubic-bezier(0.075, 0.82, 0.165, 1);
+    /* transform: translate(100px,-100px) rotate(10deg) skew(10deg) scale(1); */
+}
+
+.d3:hover {
+    transform: rotate(20deg);
+}
+
+.paragraph {
+    color: white;
+    padding: 10px;
+    border: 2px solid blue;
+}
+
+/* Tag Selector  */
+p {
+    background-color: black !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2;
+    font-size: 13px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    text-transform: uppercase;
+    text-decoration: wavy;
+}
+
+p::first-letter {
+    font-size: 30px;
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* id selector  */
+#para {
+    background-color: blueviolet;
+}
+
+/* class selector  */
+.paragraph {
+    background-color: brown;
+}
+
+.btn {
+    border: 3px solid coral;
+    display: inline-block;
+    width: 100px;
+    padding: 2px;
+    text-align: center;
+    background-color: darkolivegreen;
+    color: blanchedalmond;
+    border-radius: 80px;
+}
+
+.btn::after {
+    content: "😏";
+}
+
+.btn::before {
+    content: "";
+    background-color: black;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 2px;
+}
+
+.btn:hover {
+    background-color: pink;
+}
+
+.list {
+    list-style: none;
+}
+
+.list li {
+    color: brown;
+}
+
+.list li:last-child {
+    color: rebeccapurple;
+}
+
+.list li:first-child {
+    color: goldenrod;
+}
+
+.list li:nth-child(2n) {
+    color: hotpink;
+}
+
+/* Pseudo element */
+#m::before {
+    content: "🥭";
+}
+
+#b::before {
+    content: "🍌";
+}
+
+#o::before {
+    content: "🍊";
+}
+
+#a::before {
+    content: "🍎";
+}
+
+input {
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input:focus {
+    background-color: green;
+}
