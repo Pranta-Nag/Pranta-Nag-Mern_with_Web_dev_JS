@@ -14,6 +14,9 @@
             - z-index
             
 3. Flex box mode ***
+    a. Parent
+    b. Child
+        ( For Center align = display-flex, justify_content-center, align_item-center. )
 4. Grid Mode *
 5. Table Layout 
 

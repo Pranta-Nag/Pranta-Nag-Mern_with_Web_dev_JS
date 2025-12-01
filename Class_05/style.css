@@ -10,7 +10,7 @@ body{
 
 .parent {
     background-color: blueviolet;
-    height: 500px;
+    height: 600px;
     /* position: relative; */
     /* position: fixed; */
 }
@@ -70,14 +70,30 @@ body{
     z-index: 1;
 } */
 
-.parent{
+/* .parent{
     width: 400px; 
-    top: 50px;
-    /* position: fixed;  */
-    /* position: absolute; */
-} 
+    top: 50px; 
+    position: fixed;  
+    position: absolute;
+}  */
 
-.child-1{
+/* .child-1{
     position: sticky;
-    top: 0;
+    top: 0; 
+} */
+
+/* Flex box Experiments  */
+.parent{
+    display: flex;
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between;  */
+    /* align-items: first baseline; */
 }
+
+/* .child-3{
+    order: 0;
+    flex-grow: calc(1);
+    flex-shrink: 0;
+    align-self: flex-end;
+} */
