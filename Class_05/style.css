@@ -93,7 +93,7 @@ body{
 
 /* .child-3{
     order: 0;
-    flex-grow: calc(1);
+    flex-grow: calc(1); 
     flex-shrink: 0;
     align-self: flex-end;
 } */
